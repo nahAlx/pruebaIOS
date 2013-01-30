@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22732A43147F8C3500A39AA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22732A42147F8C3500A39AA9 /* UIKit.framework */; };
+		22732A45147F8C3500A39AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22732A44147F8C3500A39AA9 /* Foundation.framework */; };
+		22732A47147F8C3500A39AA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22732A46147F8C3500A39AA9 /* CoreGraphics.framework */; };
+		22732A4D147F8C3500A39AA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22732A4B147F8C3500A39AA9 /* InfoPlist.strings */; };
+		22732A4F147F8C3500A39AA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22732A4E147F8C3500A39AA9 /* main.m */; };
+		22732A53147F8C3500A39AA9 /* Lesson28AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22732A52147F8C3500A39AA9 /* Lesson28AppDelegate.m */; };
+		22732A56147F8C3500A39AA9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22732A54147F8C3500A39AA9 /* MainStoryboard.storyboard */; };
+		22732A59147F8C3500A39AA9 /* Lesson28ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22732A58147F8C3500A39AA9 /* Lesson28ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22732A3E147F8C3500A39AA9 /* SoapClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoapClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22732A42147F8C3500A39AA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22732A44147F8C3500A39AA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22732A46147F8C3500A39AA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22732A4A147F8C3500A39AA9 /* SoapClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoapClient-Info.plist"; sourceTree = "<group>"; };
+		22732A4C147F8C3500A39AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22732A4E147F8C3500A39AA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22732A50147F8C3500A39AA9 /* SoapClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoapClient-Prefix.pch"; sourceTree = "<group>"; };
+		22732A51147F8C3500A39AA9 /* Lesson28AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson28AppDelegate.h; sourceTree = "<group>"; };
+		22732A52147F8C3500A39AA9 /* Lesson28AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson28AppDelegate.m; sourceTree = "<group>"; };
+		22732A55147F8C3500A39AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22732A57147F8C3500A39AA9 /* Lesson28ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson28ViewController.h; sourceTree = "<group>"; };
+		22732A58147F8C3500A39AA9 /* Lesson28ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson28ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22732A3B147F8C3500A39AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22732A43147F8C3500A39AA9 /* UIKit.framework in Frameworks */,
+				22732A45147F8C3500A39AA9 /* Foundation.framework in Frameworks */,
+				22732A47147F8C3500A39AA9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22732A33147F8C3500A39AA9 = {
+			isa = PBXGroup;
+			children = (
+				22732A48147F8C3500A39AA9 /* SoapClient */,
+				22732A41147F8C3500A39AA9 /* Frameworks */,
+				22732A3F147F8C3500A39AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22732A3F147F8C3500A39AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22732A3E147F8C3500A39AA9 /* SoapClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22732A41147F8C3500A39AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22732A42147F8C3500A39AA9 /* UIKit.framework */,
+				22732A44147F8C3500A39AA9 /* Foundation.framework */,
+				22732A46147F8C3500A39AA9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22732A48147F8C3500A39AA9 /* SoapClient */ = {
+			isa = PBXGroup;
+			children = (
+				22732A51147F8C3500A39AA9 /* Lesson28AppDelegate.h */,
+				22732A52147F8C3500A39AA9 /* Lesson28AppDelegate.m */,
+				22732A54147F8C3500A39AA9 /* MainStoryboard.storyboard */,
+				22732A57147F8C3500A39AA9 /* Lesson28ViewController.h */,
+				22732A58147F8C3500A39AA9 /* Lesson28ViewController.m */,
+				22732A49147F8C3500A39AA9 /* Supporting Files */,
+			);
+			path = SoapClient;
+			sourceTree = "<group>";
+		};
+		22732A49147F8C3500A39AA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22732A4A147F8C3500A39AA9 /* SoapClient-Info.plist */,
+				22732A4B147F8C3500A39AA9 /* InfoPlist.strings */,
+				22732A4E147F8C3500A39AA9 /* main.m */,
+				22732A50147F8C3500A39AA9 /* SoapClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22732A3D147F8C3500A39AA9 /* SoapClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22732A5C147F8C3500A39AA9 /* Build configuration list for PBXNativeTarget "SoapClient" */;
+			buildPhases = (
+				22732A3A147F8C3500A39AA9 /* Sources */,
+				22732A3B147F8C3500A39AA9 /* Frameworks */,
+				22732A3C147F8C3500A39AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoapClient;
+			productName = SoapClient;
+			productReference = 22732A3E147F8C3500A39AA9 /* SoapClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22732A35147F8C3500A39AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ASM Technology";
+			};
+			buildConfigurationList = 22732A38147F8C3500A39AA9 /* Build configuration list for PBXProject "SoapClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22732A33147F8C3500A39AA9;
+			productRefGroup = 22732A3F147F8C3500A39AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22732A3D147F8C3500A39AA9 /* SoapClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22732A3C147F8C3500A39AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22732A4D147F8C3500A39AA9 /* InfoPlist.strings in Resources */,
+				22732A56147F8C3500A39AA9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22732A3A147F8C3500A39AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22732A4F147F8C3500A39AA9 /* main.m in Sources */,
+				22732A53147F8C3500A39AA9 /* Lesson28AppDelegate.m in Sources */,
+				22732A59147F8C3500A39AA9 /* Lesson28ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22732A4B147F8C3500A39AA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22732A4C147F8C3500A39AA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22732A54147F8C3500A39AA9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22732A55147F8C3500A39AA9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22732A5A147F8C3500A39AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22732A5B147F8C3500A39AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22732A5D147F8C3500A39AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapClient/SoapClient-Prefix.pch";
+				INFOPLIST_FILE = "SoapClient/SoapClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22732A5E147F8C3500A39AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapClient/SoapClient-Prefix.pch";
+				INFOPLIST_FILE = "SoapClient/SoapClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22732A38147F8C3500A39AA9 /* Build configuration list for PBXProject "SoapClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22732A5A147F8C3500A39AA9 /* Debug */,
+				22732A5B147F8C3500A39AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22732A5C147F8C3500A39AA9 /* Build configuration list for PBXNativeTarget "SoapClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22732A5D147F8C3500A39AA9 /* Debug */,
+				22732A5E147F8C3500A39AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22732A35147F8C3500A39AA9 /* Project object */;
+}

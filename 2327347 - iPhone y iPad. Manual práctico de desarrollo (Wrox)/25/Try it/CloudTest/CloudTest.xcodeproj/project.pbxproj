@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		226CABB214800DA5001AF279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226CABB114800DA5001AF279 /* UIKit.framework */; };
+		226CABB414800DA5001AF279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226CABB314800DA5001AF279 /* Foundation.framework */; };
+		226CABB614800DA5001AF279 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226CABB514800DA5001AF279 /* CoreGraphics.framework */; };
+		226CABBC14800DA5001AF279 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 226CABBA14800DA5001AF279 /* InfoPlist.strings */; };
+		226CABBE14800DA5001AF279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226CABBD14800DA5001AF279 /* main.m */; };
+		226CABC214800DA5001AF279 /* Lesson25AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 226CABC114800DA5001AF279 /* Lesson25AppDelegate.m */; };
+		226CABC514800DA5001AF279 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226CABC314800DA5001AF279 /* MainStoryboard_iPhone.storyboard */; };
+		226CABC814800DA5001AF279 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226CABC614800DA5001AF279 /* MainStoryboard_iPad.storyboard */; };
+		226CABCB14800DA5001AF279 /* Lesson25ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226CABCA14800DA5001AF279 /* Lesson25ViewController.m */; };
+		226CABD814800DE6001AF279 /* CloudTestDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 226CABD714800DE6001AF279 /* CloudTestDocument.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		226CABAD14800DA5001AF279 /* CloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226CABB114800DA5001AF279 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		226CABB314800DA5001AF279 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		226CABB514800DA5001AF279 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		226CABB914800DA5001AF279 /* CloudTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudTest-Info.plist"; sourceTree = "<group>"; };
+		226CABBB14800DA5001AF279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		226CABBD14800DA5001AF279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		226CABBF14800DA5001AF279 /* CloudTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudTest-Prefix.pch"; sourceTree = "<group>"; };
+		226CABC014800DA5001AF279 /* Lesson25AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson25AppDelegate.h; sourceTree = "<group>"; };
+		226CABC114800DA5001AF279 /* Lesson25AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson25AppDelegate.m; sourceTree = "<group>"; };
+		226CABC414800DA5001AF279 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		226CABC714800DA5001AF279 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		226CABC914800DA5001AF279 /* Lesson25ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson25ViewController.h; sourceTree = "<group>"; };
+		226CABCA14800DA5001AF279 /* Lesson25ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson25ViewController.m; sourceTree = "<group>"; };
+		226CABD514800DD6001AF279 /* CloudTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudTest.entitlements; sourceTree = "<group>"; };
+		226CABD614800DE6001AF279 /* CloudTestDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTestDocument.h; sourceTree = "<group>"; };
+		226CABD714800DE6001AF279 /* CloudTestDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudTestDocument.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226CABAA14800DA5001AF279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226CABB214800DA5001AF279 /* UIKit.framework in Frameworks */,
+				226CABB414800DA5001AF279 /* Foundation.framework in Frameworks */,
+				226CABB614800DA5001AF279 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226CABA214800DA5001AF279 = {
+			isa = PBXGroup;
+			children = (
+				226CABB714800DA5001AF279 /* CloudTest */,
+				226CABB014800DA5001AF279 /* Frameworks */,
+				226CABAE14800DA5001AF279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226CABAE14800DA5001AF279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226CABAD14800DA5001AF279 /* CloudTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		226CABB014800DA5001AF279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226CABB114800DA5001AF279 /* UIKit.framework */,
+				226CABB314800DA5001AF279 /* Foundation.framework */,
+				226CABB514800DA5001AF279 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		226CABB714800DA5001AF279 /* CloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				226CABD514800DD6001AF279 /* CloudTest.entitlements */,
+				226CABC014800DA5001AF279 /* Lesson25AppDelegate.h */,
+				226CABC114800DA5001AF279 /* Lesson25AppDelegate.m */,
+				226CABC314800DA5001AF279 /* MainStoryboard_iPhone.storyboard */,
+				226CABC614800DA5001AF279 /* MainStoryboard_iPad.storyboard */,
+				226CABC914800DA5001AF279 /* Lesson25ViewController.h */,
+				226CABCA14800DA5001AF279 /* Lesson25ViewController.m */,
+				226CABD614800DE6001AF279 /* CloudTestDocument.h */,
+				226CABD714800DE6001AF279 /* CloudTestDocument.m */,
+				226CABB814800DA5001AF279 /* Supporting Files */,
+			);
+			path = CloudTest;
+			sourceTree = "<group>";
+		};
+		226CABB814800DA5001AF279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				226CABB914800DA5001AF279 /* CloudTest-Info.plist */,
+				226CABBA14800DA5001AF279 /* InfoPlist.strings */,
+				226CABBD14800DA5001AF279 /* main.m */,
+				226CABBF14800DA5001AF279 /* CloudTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226CABAC14800DA5001AF279 /* CloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226CABCE14800DA5001AF279 /* Build configuration list for PBXNativeTarget "CloudTest" */;
+			buildPhases = (
+				226CABA914800DA5001AF279 /* Sources */,
+				226CABAA14800DA5001AF279 /* Frameworks */,
+				226CABAB14800DA5001AF279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudTest;
+			productName = CloudTest;
+			productReference = 226CABAD14800DA5001AF279 /* CloudTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226CABA414800DA5001AF279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ASM Technology";
+			};
+			buildConfigurationList = 226CABA714800DA5001AF279 /* Build configuration list for PBXProject "CloudTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 226CABA214800DA5001AF279;
+			productRefGroup = 226CABAE14800DA5001AF279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226CABAC14800DA5001AF279 /* CloudTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		226CABAB14800DA5001AF279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226CABBC14800DA5001AF279 /* InfoPlist.strings in Resources */,
+				226CABC514800DA5001AF279 /* MainStoryboard_iPhone.storyboard in Resources */,
+				226CABC814800DA5001AF279 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		226CABA914800DA5001AF279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226CABBE14800DA5001AF279 /* main.m in Sources */,
+				226CABC214800DA5001AF279 /* Lesson25AppDelegate.m in Sources */,
+				226CABCB14800DA5001AF279 /* Lesson25ViewController.m in Sources */,
+				226CABD814800DE6001AF279 /* CloudTestDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		226CABBA14800DA5001AF279 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226CABBB14800DA5001AF279 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		226CABC314800DA5001AF279 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226CABC414800DA5001AF279 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		226CABC614800DA5001AF279 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226CABC714800DA5001AF279 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		226CABCC14800DA5001AF279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abhishek Mishra (EPE8F6H2MD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C403E543-0B3D-4B5C-BEF9-6E7B487F4F03";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226CABCD14800DA5001AF279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		226CABCF14800DA5001AF279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CloudTest/CloudTest.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abhishek Mishra (EPE8F6H2MD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudTest/CloudTest-Prefix.pch";
+				INFOPLIST_FILE = "CloudTest/CloudTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C403E543-0B3D-4B5C-BEF9-6E7B487F4F03";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		226CABD014800DA5001AF279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CloudTest/CloudTest.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CloudTest/CloudTest-Prefix.pch";
+				INFOPLIST_FILE = "CloudTest/CloudTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226CABA714800DA5001AF279 /* Build configuration list for PBXProject "CloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226CABCC14800DA5001AF279 /* Debug */,
+				226CABCD14800DA5001AF279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226CABCE14800DA5001AF279 /* Build configuration list for PBXNativeTarget "CloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226CABCF14800DA5001AF279 /* Debug */,
+				226CABD014800DA5001AF279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 226CABA414800DA5001AF279 /* Project object */;
+}

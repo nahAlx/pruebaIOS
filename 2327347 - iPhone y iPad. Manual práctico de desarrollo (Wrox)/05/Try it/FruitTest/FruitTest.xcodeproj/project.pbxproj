@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22694E68146D97800047839E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22694E67146D97800047839E /* UIKit.framework */; };
+		22694E6A146D97800047839E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22694E69146D97800047839E /* Foundation.framework */; };
+		22694E6C146D97800047839E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22694E6B146D97800047839E /* CoreGraphics.framework */; };
+		22694E72146D97800047839E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22694E70146D97800047839E /* InfoPlist.strings */; };
+		22694E74146D97800047839E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22694E73146D97800047839E /* main.m */; };
+		22694E78146D97800047839E /* Lesson5AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22694E77146D97800047839E /* Lesson5AppDelegate.m */; };
+		22694E7B146D97800047839E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22694E79146D97800047839E /* MainStoryboard.storyboard */; };
+		22694E7E146D97800047839E /* Lesson5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22694E7D146D97800047839E /* Lesson5ViewController.m */; };
+		226B8F37147C44FF0080AE75 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 226B8F31147C44FF0080AE75 /* apple.png */; };
+		226B8F38147C44FF0080AE75 /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 226B8F32147C44FF0080AE75 /* banana.png */; };
+		226B8F39147C44FF0080AE75 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 226B8F33147C44FF0080AE75 /* bg1.png */; };
+		226B8F3A147C44FF0080AE75 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 226B8F34147C44FF0080AE75 /* bg2.png */; };
+		226B8F3B147C44FF0080AE75 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 226B8F35147C44FF0080AE75 /* orange.png */; };
+		226B8F3C147C44FF0080AE75 /* peach.png in Resources */ = {isa = PBXBuildFile; fileRef = 226B8F36147C44FF0080AE75 /* peach.png */; };
+		228124EE146FEFD50077D32B /* FruitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 228124ED146FEFD50077D32B /* FruitClass.m */; };
+		228124F1146FF2990077D32B /* FruitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228124F0146FF2990077D32B /* FruitDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22694E63146D97800047839E /* FruitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22694E67146D97800047839E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22694E69146D97800047839E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22694E6B146D97800047839E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22694E6F146D97800047839E /* FruitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FruitTest-Info.plist"; sourceTree = "<group>"; };
+		22694E71146D97800047839E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22694E73146D97800047839E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22694E75146D97800047839E /* FruitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FruitTest-Prefix.pch"; sourceTree = "<group>"; };
+		22694E76146D97800047839E /* Lesson5AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson5AppDelegate.h; sourceTree = "<group>"; };
+		22694E77146D97800047839E /* Lesson5AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson5AppDelegate.m; sourceTree = "<group>"; };
+		22694E7A146D97800047839E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22694E7C146D97800047839E /* Lesson5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson5ViewController.h; sourceTree = "<group>"; };
+		22694E7D146D97800047839E /* Lesson5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson5ViewController.m; sourceTree = "<group>"; };
+		226B8F31147C44FF0080AE75 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		226B8F32147C44FF0080AE75 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		226B8F33147C44FF0080AE75 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		226B8F34147C44FF0080AE75 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		226B8F35147C44FF0080AE75 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		226B8F36147C44FF0080AE75 /* peach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peach.png; sourceTree = "<group>"; };
+		228124EC146FEFD50077D32B /* FruitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitClass.h; sourceTree = "<group>"; };
+		228124ED146FEFD50077D32B /* FruitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitClass.m; sourceTree = "<group>"; };
+		228124EF146FF2990077D32B /* FruitDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitDetailViewController.h; sourceTree = "<group>"; };
+		228124F0146FF2990077D32B /* FruitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22694E60146D97800047839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22694E68146D97800047839E /* UIKit.framework in Frameworks */,
+				22694E6A146D97800047839E /* Foundation.framework in Frameworks */,
+				22694E6C146D97800047839E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22694E58146D97800047839E = {
+			isa = PBXGroup;
+			children = (
+				22694E6D146D97800047839E /* FruitTest */,
+				22694E66146D97800047839E /* Frameworks */,
+				22694E64146D97800047839E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22694E64146D97800047839E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22694E63146D97800047839E /* FruitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22694E66146D97800047839E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22694E67146D97800047839E /* UIKit.framework */,
+				22694E69146D97800047839E /* Foundation.framework */,
+				22694E6B146D97800047839E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22694E6D146D97800047839E /* FruitTest */ = {
+			isa = PBXGroup;
+			children = (
+				226B8F30147C44FF0080AE75 /* Images */,
+				22694E76146D97800047839E /* Lesson5AppDelegate.h */,
+				22694E77146D97800047839E /* Lesson5AppDelegate.m */,
+				22694E79146D97800047839E /* MainStoryboard.storyboard */,
+				22694E7C146D97800047839E /* Lesson5ViewController.h */,
+				22694E7D146D97800047839E /* Lesson5ViewController.m */,
+				228124EC146FEFD50077D32B /* FruitClass.h */,
+				228124ED146FEFD50077D32B /* FruitClass.m */,
+				228124EF146FF2990077D32B /* FruitDetailViewController.h */,
+				228124F0146FF2990077D32B /* FruitDetailViewController.m */,
+				22694E6E146D97800047839E /* Supporting Files */,
+			);
+			path = FruitTest;
+			sourceTree = "<group>";
+		};
+		22694E6E146D97800047839E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22694E6F146D97800047839E /* FruitTest-Info.plist */,
+				22694E70146D97800047839E /* InfoPlist.strings */,
+				22694E73146D97800047839E /* main.m */,
+				22694E75146D97800047839E /* FruitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		226B8F30147C44FF0080AE75 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				226B8F31147C44FF0080AE75 /* apple.png */,
+				226B8F32147C44FF0080AE75 /* banana.png */,
+				226B8F33147C44FF0080AE75 /* bg1.png */,
+				226B8F34147C44FF0080AE75 /* bg2.png */,
+				226B8F35147C44FF0080AE75 /* orange.png */,
+				226B8F36147C44FF0080AE75 /* peach.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22694E62146D97800047839E /* FruitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22694E81146D97800047839E /* Build configuration list for PBXNativeTarget "FruitTest" */;
+			buildPhases = (
+				22694E5F146D97800047839E /* Sources */,
+				22694E60146D97800047839E /* Frameworks */,
+				22694E61146D97800047839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruitTest;
+			productName = FruitTest;
+			productReference = 22694E63146D97800047839E /* FruitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22694E5A146D97800047839E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ASM Technology";
+			};
+			buildConfigurationList = 22694E5D146D97800047839E /* Build configuration list for PBXProject "FruitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22694E58146D97800047839E;
+			productRefGroup = 22694E64146D97800047839E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22694E62146D97800047839E /* FruitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22694E61146D97800047839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22694E72146D97800047839E /* InfoPlist.strings in Resources */,
+				22694E7B146D97800047839E /* MainStoryboard.storyboard in Resources */,
+				226B8F37147C44FF0080AE75 /* apple.png in Resources */,
+				226B8F38147C44FF0080AE75 /* banana.png in Resources */,
+				226B8F39147C44FF0080AE75 /* bg1.png in Resources */,
+				226B8F3A147C44FF0080AE75 /* bg2.png in Resources */,
+				226B8F3B147C44FF0080AE75 /* orange.png in Resources */,
+				226B8F3C147C44FF0080AE75 /* peach.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22694E5F146D97800047839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22694E74146D97800047839E /* main.m in Sources */,
+				22694E78146D97800047839E /* Lesson5AppDelegate.m in Sources */,
+				22694E7E146D97800047839E /* Lesson5ViewController.m in Sources */,
+				228124EE146FEFD50077D32B /* FruitClass.m in Sources */,
+				228124F1146FF2990077D32B /* FruitDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22694E70146D97800047839E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22694E71146D97800047839E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22694E79146D97800047839E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22694E7A146D97800047839E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22694E7F146D97800047839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22694E80146D97800047839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22694E82146D97800047839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FruitTest/FruitTest-Prefix.pch";
+				INFOPLIST_FILE = "FruitTest/FruitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22694E83146D97800047839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FruitTest/FruitTest-Prefix.pch";
+				INFOPLIST_FILE = "FruitTest/FruitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22694E5D146D97800047839E /* Build configuration list for PBXProject "FruitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22694E7F146D97800047839E /* Debug */,
+				22694E80146D97800047839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22694E81146D97800047839E /* Build configuration list for PBXNativeTarget "FruitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22694E82146D97800047839E /* Debug */,
+				22694E83146D97800047839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22694E5A146D97800047839E /* Project object */;
+}

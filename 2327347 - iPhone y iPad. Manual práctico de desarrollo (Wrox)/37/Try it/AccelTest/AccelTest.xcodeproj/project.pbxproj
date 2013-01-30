@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B64A021487CC5C008EF779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B64A011487CC5C008EF779 /* UIKit.framework */; };
+		22B64A041487CC5C008EF779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B64A031487CC5C008EF779 /* Foundation.framework */; };
+		22B64A061487CC5C008EF779 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B64A051487CC5C008EF779 /* CoreGraphics.framework */; };
+		22B64A0C1487CC5C008EF779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B64A0A1487CC5C008EF779 /* InfoPlist.strings */; };
+		22B64A0E1487CC5C008EF779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B64A0D1487CC5C008EF779 /* main.m */; };
+		22B64A121487CC5C008EF779 /* Lesson37AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B64A111487CC5C008EF779 /* Lesson37AppDelegate.m */; };
+		22B64A151487CC5C008EF779 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B64A131487CC5C008EF779 /* MainStoryboard.storyboard */; };
+		22B64A181487CC5C008EF779 /* Lesson37ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B64A171487CC5C008EF779 /* Lesson37ViewController.m */; };
+		22B64A1F1487CD78008EF779 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B64A1E1487CD78008EF779 /* CoreMotion.framework */; };
+		22B64A221487CDA3008EF779 /* 00.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B64A201487CDA3008EF779 /* 00.png */; };
+		22B64A231487CDA3008EF779 /* gameBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B64A211487CDA3008EF779 /* gameBack.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22B649FD1487CC5C008EF779 /* AccelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B64A011487CC5C008EF779 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22B64A031487CC5C008EF779 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22B64A051487CC5C008EF779 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22B64A091487CC5C008EF779 /* AccelTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccelTest-Info.plist"; sourceTree = "<group>"; };
+		22B64A0B1487CC5C008EF779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22B64A0D1487CC5C008EF779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22B64A0F1487CC5C008EF779 /* AccelTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccelTest-Prefix.pch"; sourceTree = "<group>"; };
+		22B64A101487CC5C008EF779 /* Lesson37AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson37AppDelegate.h; sourceTree = "<group>"; };
+		22B64A111487CC5C008EF779 /* Lesson37AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson37AppDelegate.m; sourceTree = "<group>"; };
+		22B64A141487CC5C008EF779 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22B64A161487CC5C008EF779 /* Lesson37ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson37ViewController.h; sourceTree = "<group>"; };
+		22B64A171487CC5C008EF779 /* Lesson37ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson37ViewController.m; sourceTree = "<group>"; };
+		22B64A1E1487CD78008EF779 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		22B64A201487CDA3008EF779 /* 00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00.png; sourceTree = "<group>"; };
+		22B64A211487CDA3008EF779 /* gameBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameBack.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B649FA1487CC5C008EF779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B64A1F1487CD78008EF779 /* CoreMotion.framework in Frameworks */,
+				22B64A021487CC5C008EF779 /* UIKit.framework in Frameworks */,
+				22B64A041487CC5C008EF779 /* Foundation.framework in Frameworks */,
+				22B64A061487CC5C008EF779 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B649F21487CC5C008EF779 = {
+			isa = PBXGroup;
+			children = (
+				22B64A1E1487CD78008EF779 /* CoreMotion.framework */,
+				22B64A071487CC5C008EF779 /* AccelTest */,
+				22B64A001487CC5C008EF779 /* Frameworks */,
+				22B649FE1487CC5C008EF779 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B649FE1487CC5C008EF779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B649FD1487CC5C008EF779 /* AccelTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B64A001487CC5C008EF779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B64A011487CC5C008EF779 /* UIKit.framework */,
+				22B64A031487CC5C008EF779 /* Foundation.framework */,
+				22B64A051487CC5C008EF779 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22B64A071487CC5C008EF779 /* AccelTest */ = {
+			isa = PBXGroup;
+			children = (
+				22B64A201487CDA3008EF779 /* 00.png */,
+				22B64A211487CDA3008EF779 /* gameBack.png */,
+				22B64A101487CC5C008EF779 /* Lesson37AppDelegate.h */,
+				22B64A111487CC5C008EF779 /* Lesson37AppDelegate.m */,
+				22B64A131487CC5C008EF779 /* MainStoryboard.storyboard */,
+				22B64A161487CC5C008EF779 /* Lesson37ViewController.h */,
+				22B64A171487CC5C008EF779 /* Lesson37ViewController.m */,
+				22B64A081487CC5C008EF779 /* Supporting Files */,
+			);
+			path = AccelTest;
+			sourceTree = "<group>";
+		};
+		22B64A081487CC5C008EF779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B64A091487CC5C008EF779 /* AccelTest-Info.plist */,
+				22B64A0A1487CC5C008EF779 /* InfoPlist.strings */,
+				22B64A0D1487CC5C008EF779 /* main.m */,
+				22B64A0F1487CC5C008EF779 /* AccelTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B649FC1487CC5C008EF779 /* AccelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B64A1B1487CC5C008EF779 /* Build configuration list for PBXNativeTarget "AccelTest" */;
+			buildPhases = (
+				22B649F91487CC5C008EF779 /* Sources */,
+				22B649FA1487CC5C008EF779 /* Frameworks */,
+				22B649FB1487CC5C008EF779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccelTest;
+			productName = AccelTest;
+			productReference = 22B649FD1487CC5C008EF779 /* AccelTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B649F41487CC5C008EF779 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ASM Technology";
+			};
+			buildConfigurationList = 22B649F71487CC5C008EF779 /* Build configuration list for PBXProject "AccelTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22B649F21487CC5C008EF779;
+			productRefGroup = 22B649FE1487CC5C008EF779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B649FC1487CC5C008EF779 /* AccelTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B649FB1487CC5C008EF779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B64A0C1487CC5C008EF779 /* InfoPlist.strings in Resources */,
+				22B64A151487CC5C008EF779 /* MainStoryboard.storyboard in Resources */,
+				22B64A221487CDA3008EF779 /* 00.png in Resources */,
+				22B64A231487CDA3008EF779 /* gameBack.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B649F91487CC5C008EF779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B64A0E1487CC5C008EF779 /* main.m in Sources */,
+				22B64A121487CC5C008EF779 /* Lesson37AppDelegate.m in Sources */,
+				22B64A181487CC5C008EF779 /* Lesson37ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22B64A0A1487CC5C008EF779 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B64A0B1487CC5C008EF779 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22B64A131487CC5C008EF779 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B64A141487CC5C008EF779 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B64A191487CC5C008EF779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22B64A1A1487CC5C008EF779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B64A1C1487CC5C008EF779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelTest/AccelTest-Prefix.pch";
+				INFOPLIST_FILE = "AccelTest/AccelTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22B64A1D1487CC5C008EF779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelTest/AccelTest-Prefix.pch";
+				INFOPLIST_FILE = "AccelTest/AccelTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B649F71487CC5C008EF779 /* Build configuration list for PBXProject "AccelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B64A191487CC5C008EF779 /* Debug */,
+				22B64A1A1487CC5C008EF779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B64A1B1487CC5C008EF779 /* Build configuration list for PBXNativeTarget "AccelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B64A1C1487CC5C008EF779 /* Debug */,
+				22B64A1D1487CC5C008EF779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B649F41487CC5C008EF779 /* Project object */;
+}

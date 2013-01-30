@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D8A4E81474382B00504262 /* anim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8A4E11474382B00504262 /* anim1.png */; };
+		22D8A4E91474382B00504262 /* anim2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8A4E21474382B00504262 /* anim2.png */; };
+		22D8A4EA1474382B00504262 /* anim3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8A4E31474382B00504262 /* anim3.png */; };
+		22D8A4EB1474382B00504262 /* anim4.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8A4E41474382B00504262 /* anim4.png */; };
+		22D8A4EC1474382B00504262 /* anim5.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8A4E51474382B00504262 /* anim5.png */; };
+		22D8A4ED1474382B00504262 /* anim6.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8A4E61474382B00504262 /* anim6.png */; };
+		22D8A4EE1474382B00504262 /* beads.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D8A4E71474382B00504262 /* beads.png */; };
+		22ECDDF0147433CE0031AA24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ECDDEF147433CE0031AA24 /* UIKit.framework */; };
+		22ECDDF2147433CE0031AA24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ECDDF1147433CE0031AA24 /* Foundation.framework */; };
+		22ECDDF4147433CE0031AA24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ECDDF3147433CE0031AA24 /* CoreGraphics.framework */; };
+		22ECDDFA147433CE0031AA24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22ECDDF8147433CE0031AA24 /* InfoPlist.strings */; };
+		22ECDDFC147433CE0031AA24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECDDFB147433CE0031AA24 /* main.m */; };
+		22ECDE00147433CE0031AA24 /* Lesson8AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECDDFF147433CE0031AA24 /* Lesson8AppDelegate.m */; };
+		22ECDE03147433CE0031AA24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ECDE01147433CE0031AA24 /* MainStoryboard.storyboard */; };
+		22ECDE06147433CE0031AA24 /* Lesson8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECDE05147433CE0031AA24 /* Lesson8ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22D8A4E11474382B00504262 /* anim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anim1.png; sourceTree = "<group>"; };
+		22D8A4E21474382B00504262 /* anim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anim2.png; sourceTree = "<group>"; };
+		22D8A4E31474382B00504262 /* anim3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anim3.png; sourceTree = "<group>"; };
+		22D8A4E41474382B00504262 /* anim4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anim4.png; sourceTree = "<group>"; };
+		22D8A4E51474382B00504262 /* anim5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anim5.png; sourceTree = "<group>"; };
+		22D8A4E61474382B00504262 /* anim6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anim6.png; sourceTree = "<group>"; };
+		22D8A4E71474382B00504262 /* beads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beads.png; sourceTree = "<group>"; };
+		22ECDDEB147433CE0031AA24 /* TreasureHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreasureHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ECDDEF147433CE0031AA24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22ECDDF1147433CE0031AA24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22ECDDF3147433CE0031AA24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22ECDDF7147433CE0031AA24 /* TreasureHunt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreasureHunt-Info.plist"; sourceTree = "<group>"; };
+		22ECDDF9147433CE0031AA24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22ECDDFB147433CE0031AA24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22ECDDFD147433CE0031AA24 /* TreasureHunt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreasureHunt-Prefix.pch"; sourceTree = "<group>"; };
+		22ECDDFE147433CE0031AA24 /* Lesson8AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson8AppDelegate.h; sourceTree = "<group>"; };
+		22ECDDFF147433CE0031AA24 /* Lesson8AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson8AppDelegate.m; sourceTree = "<group>"; };
+		22ECDE02147433CE0031AA24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22ECDE04147433CE0031AA24 /* Lesson8ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson8ViewController.h; sourceTree = "<group>"; };
+		22ECDE05147433CE0031AA24 /* Lesson8ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson8ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22ECDDE8147433CE0031AA24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ECDDF0147433CE0031AA24 /* UIKit.framework in Frameworks */,
+				22ECDDF2147433CE0031AA24 /* Foundation.framework in Frameworks */,
+				22ECDDF4147433CE0031AA24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D8A4DF1474382B00504262 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				22D8A4E01474382B00504262 /* anim */,
+				22D8A4E71474382B00504262 /* beads.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		22D8A4E01474382B00504262 /* anim */ = {
+			isa = PBXGroup;
+			children = (
+				22D8A4E11474382B00504262 /* anim1.png */,
+				22D8A4E21474382B00504262 /* anim2.png */,
+				22D8A4E31474382B00504262 /* anim3.png */,
+				22D8A4E41474382B00504262 /* anim4.png */,
+				22D8A4E51474382B00504262 /* anim5.png */,
+				22D8A4E61474382B00504262 /* anim6.png */,
+			);
+			path = anim;
+			sourceTree = "<group>";
+		};
+		22ECDDE0147433CE0031AA24 = {
+			isa = PBXGroup;
+			children = (
+				22ECDDF5147433CE0031AA24 /* TreasureHunt */,
+				22ECDDEE147433CE0031AA24 /* Frameworks */,
+				22ECDDEC147433CE0031AA24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22ECDDEC147433CE0031AA24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22ECDDEB147433CE0031AA24 /* TreasureHunt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22ECDDEE147433CE0031AA24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22ECDDEF147433CE0031AA24 /* UIKit.framework */,
+				22ECDDF1147433CE0031AA24 /* Foundation.framework */,
+				22ECDDF3147433CE0031AA24 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22ECDDF5147433CE0031AA24 /* TreasureHunt */ = {
+			isa = PBXGroup;
+			children = (
+				22D8A4DF1474382B00504262 /* Images */,
+				22ECDDFE147433CE0031AA24 /* Lesson8AppDelegate.h */,
+				22ECDDFF147433CE0031AA24 /* Lesson8AppDelegate.m */,
+				22ECDE01147433CE0031AA24 /* MainStoryboard.storyboard */,
+				22ECDE04147433CE0031AA24 /* Lesson8ViewController.h */,
+				22ECDE05147433CE0031AA24 /* Lesson8ViewController.m */,
+				22ECDDF6147433CE0031AA24 /* Supporting Files */,
+			);
+			path = TreasureHunt;
+			sourceTree = "<group>";
+		};
+		22ECDDF6147433CE0031AA24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22ECDDF7147433CE0031AA24 /* TreasureHunt-Info.plist */,
+				22ECDDF8147433CE0031AA24 /* InfoPlist.strings */,
+				22ECDDFB147433CE0031AA24 /* main.m */,
+				22ECDDFD147433CE0031AA24 /* TreasureHunt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22ECDDEA147433CE0031AA24 /* TreasureHunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ECDE09147433CF0031AA24 /* Build configuration list for PBXNativeTarget "TreasureHunt" */;
+			buildPhases = (
+				22ECDDE7147433CE0031AA24 /* Sources */,
+				22ECDDE8147433CE0031AA24 /* Frameworks */,
+				22ECDDE9147433CE0031AA24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreasureHunt;
+			productName = TreasureHunt;
+			productReference = 22ECDDEB147433CE0031AA24 /* TreasureHunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22ECDDE2147433CE0031AA24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ASM Technology";
+			};
+			buildConfigurationList = 22ECDDE5147433CE0031AA24 /* Build configuration list for PBXProject "TreasureHunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22ECDDE0147433CE0031AA24;
+			productRefGroup = 22ECDDEC147433CE0031AA24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22ECDDEA147433CE0031AA24 /* TreasureHunt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22ECDDE9147433CE0031AA24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ECDDFA147433CE0031AA24 /* InfoPlist.strings in Resources */,
+				22ECDE03147433CE0031AA24 /* MainStoryboard.storyboard in Resources */,
+				22D8A4E81474382B00504262 /* anim1.png in Resources */,
+				22D8A4E91474382B00504262 /* anim2.png in Resources */,
+				22D8A4EA1474382B00504262 /* anim3.png in Resources */,
+				22D8A4EB1474382B00504262 /* anim4.png in Resources */,
+				22D8A4EC1474382B00504262 /* anim5.png in Resources */,
+				22D8A4ED1474382B00504262 /* anim6.png in Resources */,
+				22D8A4EE1474382B00504262 /* beads.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22ECDDE7147433CE0031AA24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ECDDFC147433CE0031AA24 /* main.m in Sources */,
+				22ECDE00147433CE0031AA24 /* Lesson8AppDelegate.m in Sources */,
+				22ECDE06147433CE0031AA24 /* Lesson8ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22ECDDF8147433CE0031AA24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22ECDDF9147433CE0031AA24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22ECDE01147433CE0031AA24 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22ECDE02147433CE0031AA24 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22ECDE07147433CF0031AA24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22ECDE08147433CF0031AA24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22ECDE0A147433CF0031AA24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreasureHunt/TreasureHunt-Prefix.pch";
+				INFOPLIST_FILE = "TreasureHunt/TreasureHunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22ECDE0B147433CF0031AA24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreasureHunt/TreasureHunt-Prefix.pch";
+				INFOPLIST_FILE = "TreasureHunt/TreasureHunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22ECDDE5147433CE0031AA24 /* Build configuration list for PBXProject "TreasureHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ECDE07147433CF0031AA24 /* Debug */,
+				22ECDE08147433CF0031AA24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ECDE09147433CF0031AA24 /* Build configuration list for PBXNativeTarget "TreasureHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ECDE0A147433CF0031AA24 /* Debug */,
+				22ECDE0B147433CF0031AA24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22ECDDE2147433CE0031AA24 /* Project object */;
+}

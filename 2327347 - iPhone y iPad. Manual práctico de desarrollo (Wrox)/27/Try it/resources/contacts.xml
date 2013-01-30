@@ -1,0 +1,33 @@
+<?xml version= "1.0" encoding="UTF8" ?>
+
+<contacts>
+
+<contact id="1">
+<first_name>John</first_name>
+<last_name>Doe</last_name>
+<address>170 Bilton Road, Perivale</address>
+<phone>44-798-12871</phone>
+</contact>
+
+<contact id="2">
+<first_name>Paul</first_name>
+<last_name>Bridges</last_name>
+<address>17A Heathfield gardens, Brent Cross</address>
+<phone>44-701-57358</phone>
+</contact>
+
+<contact id="3">
+<first_name>Tristan</first_name>
+<last_name>White</last_name>
+<address>12 Wilfred Avenue, Golders Green</address>
+<phone>44-311-87181</phone>
+</contact>
+
+<contact id="4">
+<first_name>Mary</first_name>
+<last_name>James</last_name>
+<address>11 Woodford Crest, Palmers Wood</address>
+<phone>44-713-54109</phone>
+</contact>
+
+</contacts>
